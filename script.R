@@ -1,4 +1,4 @@
 library(tidyverse)
 
 survivors <- Titanic %>%
-  apply(c('Sex', 'Survived'), sum)
+  apply(c('Sex', 'Survived'), median)
